@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\tl2-tp09-2023-0ignacio.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\tl2-tp09-2023-0ignacio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\tl2-tp09-2023-0ignacio.csproj",
+        "projectName": "tl2-tp09-2023-0ignacio",
+        "projectPath": "C:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\tl2-tp09-2023-0ignacio.csproj",
+        "packagesPath": "C:\\Users\\ignac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ignac\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\7.0.310\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

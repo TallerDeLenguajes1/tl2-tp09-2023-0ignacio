@@ -1,0 +1,17 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = tl2_tp09_2023_0ignacio
+build_property.RootNamespace = tl2_tp09_2023_0ignacio
+build_property.ProjectDir = C:\Users\ignac\Documents\PDFs Facet\PU\2do año\2do cuatrimestre\Taller 2\TPs\tl2-tp09-2023-0ignacio\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ignac\Documents\PDFs Facet\PU\2do año\2do cuatrimestre\Taller 2\TPs\tl2-tp09-2023-0ignacio
+build_property._RazorSourceGeneratorDebug = 
