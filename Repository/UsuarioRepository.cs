@@ -28,7 +28,7 @@ namespace tl2_tp09_2023_0ignacio.Repositories
 
         public void Update(int id, Usuario usuario)
         {
-            var query = $"UPDATE Usuario SET nombre_de_usuario = '@nombreDeUsuario' WHERE id_usuario = @idUsuario";
+            var query = $"UPDATE Usuario SET nombre_de_usuario = @nombreDeUsuario WHERE id_usuario = @idUsuario";
             
             using(SQLiteConnection connection = new SQLiteConnection(cadenaConexion))
             {
@@ -56,7 +56,7 @@ namespace tl2_tp09_2023_0ignacio.Repositories
                     while (reader.Read())
                     {
                         var usuario = new Usuario();
-                        usuario.Id = Convert.ToInt32(reader["id"]);
+                        usuario.Id = Convert.ToInt32(reader["id_usuario"]);
                         usuario.NombreDeUsuario = reader["nombre_de_usuario"].ToString();
                         usuarios.Add(usuario);
                     }
@@ -68,7 +68,7 @@ namespace tl2_tp09_2023_0ignacio.Repositories
         
         public Usuario GetById(int idUsuario)
         {
-            var query = @"SELECT * FROM Usuario WHERE id = @idUsuario";
+            var query = @"SELECT * FROM Usuario WHERE id_usuario = @idUsuario";
             var usuario = new Usuario();
             using(SQLiteConnection connection = new SQLiteConnection(cadenaConexion)){
                 SQLiteCommand command = new SQLiteCommand(query, connection);
@@ -78,18 +78,18 @@ namespace tl2_tp09_2023_0ignacio.Repositories
                 {
                     while(reader.Read())
                     {
-                        usuario.Id = Convert.ToInt32(reader["id"]);
+                        usuario.Id = Convert.ToInt32(reader["id_usuario"]);
                         usuario.NombreDeUsuario = reader["nombre_de_usuario"].ToString();
                     }
                 }
                 connection.Close();
             }
-            return usuario;
+            return (usuario.Id == 0) ? null : usuario;
         }
 
         public void Delete(int idUsuario)
         {
-            var query = @"DELETE FROM Usuario WHERE id = @idUsuario";
+            var query = @"DELETE FROM Usuario WHERE id_usuario = @idUsuario";
             using(SQLiteConnection connection = new SQLiteConnection(cadenaConexion))
             {
                 SQLiteCommand command = new SQLiteCommand(query, connection);

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\tl2-tp09-2023-0ignacio.csproj": {}
+    "c:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\tl2-tp09-2023-0ignacio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\tl2-tp09-2023-0ignacio.csproj": {
+    "c:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\tl2-tp09-2023-0ignacio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\tl2-tp09-2023-0ignacio.csproj",
+        "projectUniqueName": "c:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\tl2-tp09-2023-0ignacio.csproj",
         "projectName": "tl2-tp09-2023-0ignacio",
-        "projectPath": "C:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\tl2-tp09-2023-0ignacio.csproj",
+        "projectPath": "c:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\tl2-tp09-2023-0ignacio.csproj",
         "packagesPath": "C:\\Users\\ignac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\obj\\",
+        "outputPath": "c:\\Users\\ignac\\Documents\\PDFs Facet\\PU\\2do año\\2do cuatrimestre\\Taller 2\\TPs\\tl2-tp09-2023-0ignacio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ignac\\AppData\\Roaming\\NuGet\\NuGet.Config"
